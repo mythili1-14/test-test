@@ -53,7 +53,7 @@ As part of the final submission, the following items have been prepared to demon
 
 <img src="https://github.com/mythili1-14/devops-build/blob/main/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
 
-<img src="https://github.com/mythili1-14/devops-build/blob/main/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
+<img src="https://github.com/mythili1-14/devops-build/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
 
 
 
