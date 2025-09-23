@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: "https://github.com/${DOCKERHUB_USERNAME}/devops-build.git", credentialsId: 'github-cred', branch: "${env.BRANCH_NAME}"
+                git url: "https://github.com/mythili1-14/devops-build.git", credentialsId: 'github-cred', branch: "${env.BRANCH_NAME}"
             }
         }
 
