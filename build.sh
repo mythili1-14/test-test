@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BRANCH=$(git rev-parse --abbrev-ref HEAD)
+BRANCH=$BRANCH_NAME
 
 if [ "$BRANCH" == "main" ]; then
     REPO_NAME="mythili121/devops-build-prod"
