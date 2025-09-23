@@ -1,6 +1,7 @@
 #!/bin/bash
 
-BRANCH=$BRANCH_NAME
+# Prefer BRANCH_NAME if set (Multibranch), otherwise fallback to GIT_BRANCH
+BRANCH=${BRANCH_NAME:-${GIT_BRANCH#*/}}
 
 if [ "$BRANCH" == "main" ]; then
     REPO_NAME="mythili121/devops-build-prod"
