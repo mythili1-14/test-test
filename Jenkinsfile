@@ -14,7 +14,7 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: DOCKERHUB_CREDENTIAL_ID, usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
                     sh "echo \$DOCKER_PASSWORD | docker login -u \$DOCKER_USERNAME --password-stdin"
                 }
-                sh "./build.sh"
+                sh "bash ./build.sh"
             }
         }
         
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sshagent(credentials: [AWS_SSH_CREDENTIAL_ID]) {
                     sh "scp -o StrictHostKeyChecking=no deploy.sh ubuntu@${EC2_IP}:/tmp/deploy.sh"
-                    sh "ssh -o StrictHostKeyChecking=no ubuntu@${EC2_IP} /tmp/deploy.sh ${env.BRANCH_NAME == 'main' ? 'prod main' : 'dev dev'}"
+                    sh "ssh -o StrictHostKeyChecking=no ubuntu@${EC2_IP} bash /tmp/deploy.sh ${env.BRANCH_NAME == 'main' ? 'prod main' : 'dev dev'}"
                 }
             }
         }
