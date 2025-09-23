@@ -9,12 +9,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git url: "https://github.com/mythili1-14/devops-build.git", credentialsId: 'github-cred', branch: "${env.BRANCH_NAME}"
-            }
-        }
-
         stage('Build and Push') {
             steps {
                 withCredentials([usernamePassword(credentialsId: DOCKERHUB_CREDENTIAL_ID, usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
