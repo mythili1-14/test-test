@@ -49,6 +49,10 @@ As part of the final submission, the following items have been prepared to demon
 
 [<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_214416.png" alt="Banner" />
 
+[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_211929.png" alt="Banner" />
+
+[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_002740.png" alt="Banner" />
+
 [<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_212922.png" alt="Banner" />
 
 [<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
