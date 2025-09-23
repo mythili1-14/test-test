@@ -46,3 +46,15 @@ As part of the final submission, the following items have been prepared to demon
 
 * **GitHub Repo URL**: `https://github.com/mythili1-14/devops-build`
 * **Screenshots**: A comprehensive set of screenshots including Jenkins job logs, AWS EC2 configuration, Docker Hub repositories, the deployed application, and the monitoring dashboard.
+
+<img src="https://github.com/mythili1-14/devops-build/blob/main/screenshots/Screenshot_20250923_214416.png" alt="Banner" />
+
+<img src="https://github.com/mythili1-14/devops-build/blob/main/screenshots/Screenshot_20250923_212922.png" alt="Banner" />
+
+<img src="https://github.com/mythili1-14/devops-build/blob/main/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
+
+
+## More Screenshots available at `Screenshots`
+
+
+
