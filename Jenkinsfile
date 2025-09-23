@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+
     environment {
         DOCKERHUB_USERNAME = 'mythili121'
         DOCKERHUB_CREDENTIAL_ID = 'dockerhub-cred'
@@ -17,7 +17,7 @@ pipeline {
                 sh "bash ./build.sh"
             }
         }
-        
+
         stage('Deploy to Server') {
             steps {
                 sshagent(credentials: [AWS_SSH_CREDENTIAL_ID]) {
