@@ -29,7 +29,7 @@ The pipeline is designed to provide a clear separation between the development a
 
 ---
 
-### Project Achievements
+### Project Summary
 
 * Successfully implemented a complete CI/CD pipeline from code commit to application deployment.
 * Containerized a React application using a `Dockerfile` for easy portability and scalability.
@@ -39,27 +39,3 @@ The pipeline is designed to provide a clear separation between the development a
 * Established an open-source monitoring system using Prometheus and Grafana to track application health.
 
 ---
-
-### Submission Deliverables
-
-As part of the final submission, the following items have been prepared to demonstrate the project's completion:
-
-* **GitHub Repo URL**: `https://github.com/mythili1-14/devops-build`
-* **Screenshots**: A comprehensive set of screenshots including Jenkins job logs, AWS EC2 configuration, Docker Hub repositories, the deployed application, and the monitoring dashboard.
-
-[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_214416.png" alt="Banner" />
-
-[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_211929.png" alt="Banner" />
-
-[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_002740.png" alt="Banner" />
-
-[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_212922.png" alt="Banner" />
-
-[<img src="https://github.com/mythili1-14/devops-build/blob/fc8a9f3f1b5125b62504f8223b121ef1dc4a0f4a/screenshots/Screenshot_20250923_212746.png" alt="Banner" />
-
-
-
-## More Screenshots available at `Screenshots`
-
-
-
